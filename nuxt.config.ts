@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-icons'
   ],
+  app: {
+    baseURL: '/test_progress/'
+  },
   vite: {
     css: {
       preprocessorOptions: {
