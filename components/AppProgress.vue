@@ -130,8 +130,8 @@ const fillWidth = (index) => {
     text-align: right;
   }
   &__icons-cup svg {
-    width: 46px;
-    height: 24px;
+    width: rem(46);
+    height: rem(24);
   }
   &__icons-star {
     &--fill {
@@ -148,15 +148,15 @@ const fillWidth = (index) => {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 40px;
-    border-radius: 30px;
+    height: rem(40);
+    border-radius: rem(30);
     background-color: $light-gray;
     display: grid;
   }
   &__bar-line {
     display: inline-block;
     position: relative;
-    margin-right: 9px;
+    margin-right: rem(9);
     z-index: 2;
     width: 1px;
     height: 100%;
@@ -175,7 +175,7 @@ const fillWidth = (index) => {
   }
   &__values {
     width: 100%;
-    margin-top: 13px;
+    margin-top: rem(13);
     display: grid;
     justify-items: flex-end;
     position: relative;

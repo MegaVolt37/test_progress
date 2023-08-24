@@ -17,9 +17,9 @@ await useAsyncData(() => getStages());
 </script>
 <style lang="scss">
 .page-home {
-  margin-top: 70px;
+  margin-top: rem(70);
   &__progress {
-    margin-top: 50px;
+    margin-top: rem(50);
   }
 
   &__progress-title {

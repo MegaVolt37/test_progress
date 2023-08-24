@@ -82,15 +82,15 @@ const toggleProgress = (id, name, index) => {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 40px;
-  row-gap: 30px;
-  margin-top: 20px;
+  column-gap: rem(40);
+  row-gap: rem(30);
+  margin-top: rem(20);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(rem(200), 1fr));
   &__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: rem(10);
   }
   &__title {
     font-weight: 700;
@@ -98,13 +98,13 @@ const toggleProgress = (id, name, index) => {
   &__items {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: rem(10);
   }
 
   &__item {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: rem(5);
   }
 
   &__name {
@@ -121,16 +121,16 @@ const toggleProgress = (id, name, index) => {
 
   &__field {
     border: 1px solid $purple;
-    border-radius: 30px;
-    padding: 6px 20px;
+    border-radius: rem(30);
+    padding: rem(6) rem(20);
   }
 
   &__button {
     cursor: pointer;
     border: 1px solid $purple;
-    border-radius: 30px;
+    border-radius: rem(30);
     background-color: $light-gray;
-    padding: 6px 10px;
+    padding: rem(6) rem(10);
   }
 }
 </style>

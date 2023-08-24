@@ -39,7 +39,7 @@ const randomNumberStyle = computed(() => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: rem(50);
 }
 
 .scale {
@@ -47,18 +47,18 @@ const randomNumberStyle = computed(() => {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 rem(20);
 }
 
 .scale__tick {
   flex: 1;
   text-align: center;
-  font-size: 14px;
+  font-size: rem(14);
   opacity: 0.6;
 }
 
 .random-number {
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: rem(20);
+  font-size: rem(18);
 }
 </style>
