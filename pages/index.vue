@@ -11,6 +11,8 @@
 <script setup>
 const { getStages } = useProgressStore();
 const { stages } = storeToRefs(useProgressStore());
+const config = useRuntimeConfig();
+console.log(config.public.API_URL);
 const progress = ref(null);
 await useAsyncData(() => getStages());
 </script>
