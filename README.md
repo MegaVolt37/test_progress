@@ -10,6 +10,8 @@ Nuxt 3, SCSS, Pinia
 
 Node v18+
 
+Install
+
 ```bash
 # npm
 npm install
