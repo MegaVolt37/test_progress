@@ -1,10 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Name project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Компонент прогресса
 
-## Setup
+# Tools
 
-Make sure to install the dependencies:
+Nuxt 3, SCSS, Pinia
+
+# Start project
+
+Node v18+
 
 ```bash
 # npm
@@ -16,10 +20,7 @@ pnpm install
 # yarn
 yarn install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Development
 
 ```bash
 # npm
@@ -31,10 +32,7 @@ pnpm run dev
 # yarn
 yarn dev
 ```
-
-## Production
-
-Build the application for production:
+Production
 
 ```bash
 # npm
@@ -47,8 +45,6 @@ pnpm run build
 yarn build
 ```
 
-Locally preview production build:
-
 ```bash
 # npm
 npm run preview
@@ -60,4 +56,15 @@ pnpm run preview
 yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Deploy project
+
+```bash
+# npm
+npm run deploy
+
+# pnpm
+pnpm run deploy
+
+# yarn
+yarn deploy
+```
